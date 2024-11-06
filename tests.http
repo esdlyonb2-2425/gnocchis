@@ -1,0 +1,12 @@
+POST http://localhost:8090/gnocchis/new
+Content-Type: application/json
+
+{
+  "name": "gnocchis à la tomate"
+}
+
+###
+### GET request to example server
+GET http://127.0.0.1:8090/gnocchis/all
+
+###
